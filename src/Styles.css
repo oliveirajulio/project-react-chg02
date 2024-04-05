@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --cor-primaria: #ED7121;
+    --cor-secundaria: #FC4F0F; 
+    --cor-terciaria: #223F43;
+    --cor-quarternaria: #2E4D50;
+}
+
+* {
+    right: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    outline: none;
+    
+}
+
+.btn-light {
+    background-color: var(--cor-primaria);
+    border: none;
+    outline: none !important;
+    user-select: none;
+    color: white;
+    margin-right: 2px;
+    min-width: 90px;
+}
+
+.btn-light:hover {
+    background-color: var(--cor-secundaria);
+}
+
+.btn-light:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-outline-light {
+    border-color: var(--cor-primaria);
+    color: var(--cor-primaria);
+    outline: none !important;
+    margin-right: 2px;
+    min-width: 90px;
+}
+
+.btn-outline-light:hover {
+    background-color: var(--cor-primaria);
+    border: none;
+}
+
+#ctn-home {
+    position: absolute;
+    z-index: 900;
+}
+
+ul.menu {
+    position: relative;
+    z-index: 1000;
+}
+

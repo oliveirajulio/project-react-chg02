@@ -1,0 +1,39 @@
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li:first-child {
+    margin-left: 95px;
+}
+
+li a {
+    font-size: 28px;
+    font-weight: 400;
+    display: block;
+    color: #000000;
+    padding: 15px 8px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    cursor: pointer;
+}
+
+li a.active {
+    color: var(--cor-primaria);
+}
+
+li:last-child {
+    float: right;
+    margin-right: 45px;
+}
+

@@ -1,0 +1,53 @@
+#ctn-hm {
+    background-image: url(./back.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+#btn-log {
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    padding: 12px 15px;
+    top: 30px;
+    right: 60px;
+    background-color: transparent;
+    border-width: 3px;
+    border-radius: 15px;
+    border-color: var(--cor-secundaria);
+
+}
+
+#btn-log:hover {
+    color: var(--cor-primaria);
+    cursor: pointer;
+}
+
+#box {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    
+}
+
+#box h1 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 900;
+}
+
+#box h2 {
+    margin-top: 0;
+    font-size: 55px;
+    margin-left: 3px;
+    font-weight: 900;
+}
+
+#box h4 {
+    margin-top: 0;
+    font-size: 20px;
+    margin-left: 0px;
+}
